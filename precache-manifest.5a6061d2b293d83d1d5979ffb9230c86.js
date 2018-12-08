@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ffd90bec43c88f1cfa0b",
-    "url": "/pomodoro/static/css/main.2ef43366.chunk.css"
+    "revision": "f195e68d5994109bbd7e",
+    "url": "/pomodoro/static/css/main.6eacd07d.chunk.css"
   },
   {
-    "revision": "ffd90bec43c88f1cfa0b",
-    "url": "/pomodoro/static/js/main.ffd90bec.chunk.js"
+    "revision": "f195e68d5994109bbd7e",
+    "url": "/pomodoro/static/js/main.f195e68d.chunk.js"
   },
   {
     "revision": "77958300264c6869a197",
@@ -20,7 +20,11 @@ self.__precacheManifest = [
     "url": "/pomodoro/static/media/wet-tomato.f021c6be.jpg"
   },
   {
-    "revision": "5090e12bd4d9a7907495b35b8bde013c",
+    "revision": "a39d988aadc3c36893017125794f8270",
+    "url": "/pomodoro/static/media/tomato-bkg.a39d988a.jpg"
+  },
+  {
+    "revision": "0d9f1a2be92c9434ff9993e7660ff7d7",
     "url": "/pomodoro/index.html"
   }
 ];
