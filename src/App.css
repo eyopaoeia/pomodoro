@@ -8,6 +8,14 @@ body {
   overflow: hidden;
 }
 
+/* desktop */
+@media (min-width: 768px) {
+  body {
+    background: url('./images/tomato-bkg.jpg') no-repeat;
+    background-size: cover;
+  }
+}
+
 .app-container{
   border: 2px solid black;
   width: 86vw;
@@ -19,7 +27,16 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
 
+/* desktop */
+@media (min-width: 768px) {
+  .app-container{
+    width: 30vw;
+    height: 80vh;
+    margin: 10vh auto;
+
+  }
 }
 
 .time-interval-container{
@@ -63,7 +80,7 @@ body {
 
 .display-container{
   width: 100%;
-  height: 25vh;
+  height: 30vh;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-around;
@@ -81,7 +98,7 @@ body {
 
 .countdown-timer{
   background: url('./images/tomato.png') no-repeat center center;
-  background-size: 35%;
+  background-size: 30% 90%;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -115,8 +132,8 @@ body {
   border: none;
   background: url('./images/gardening-tools.png') no-repeat center center;
   background-size: 80%;
-  height: 15vh;
-  width: 15vw;
+  height: 10vh;
+  width: 10vh;
   margin: 0;
 }
 
@@ -150,7 +167,7 @@ input {
   position: absolute;
   top: 15vh;
   left: 0;
-  margin: 2vh 3vw;
+  margin: 0 5%;
   background: rgb(255, 237, 231);
   box-shadow: inset 0 0 2px 2px;
   display: flex;
@@ -158,8 +175,8 @@ input {
   align-items: center;
   justify-content: space-around;
   z-index: 1;
-  width: 74vw;
-  height: 68vh;
+  width: 90%;
+  height: 75%;
   border-radius: 3%;
 }
 

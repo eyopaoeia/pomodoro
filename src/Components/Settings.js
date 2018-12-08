@@ -13,7 +13,6 @@ export class Settings extends React.Component {
   }
 
   handleClick() {
-  	console.log('resetting')
   	this.props.reset();
   	this.handleSettings();
   }
