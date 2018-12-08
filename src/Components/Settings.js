@@ -42,7 +42,7 @@ export class Settings extends React.Component {
           <label for='long-break-length'>Long Break Length</label>
           <input type='number' id='long-break-length' defaultValue='10' onChange={this.handleChange} />
         
-        <button onClick={this.handleClick}>Confirm</button>
+        <button className='confirm-button' onClick={this.handleClick}></button>
         </div>
       </div>
     )

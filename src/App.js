@@ -95,6 +95,7 @@ class App extends React.Component {
   }
   
   startCountdown() {
+    this.stopCountdown();
     this.interval = setInterval(this.countdownFunc, 1000);
   }
   

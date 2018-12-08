@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Amatic+SC|Gamja+Flower');
+
+
 body {
   background: url('./images/wet-tomato.jpg');
   background-size: cover;
   background-position: 70%;
+  overflow: hidden;
 }
 
 .app-container{
   border: 2px solid black;
-  width: 80vw;
+  width: 86vw;
   height: 90vh;
   position: relative;
   margin: 5vh auto;
@@ -14,12 +18,13 @@ body {
   border-radius: 3%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+
 }
 
 .time-interval-container{
   width: 100%;
-  height: 25vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,78 +33,113 @@ body {
 }
 
 .title{
-  font-family: ;
-  font-size: 1.8rem;
+  font-family: 'Amatic SC';
+  font-size: 3rem;
   text-align: center;
+  margin: 4vh auto;
 
 }
 
 .interval-buttons-container{
   display: flex;
+  width: 100%;
+  justify-content: space-around;
   align-self: center;
-
+  margin-bottom: 5vh;
 }
 
-.interval-button{
+
+.all-button{
   border: none;
   border-radius: 8%;
-  background: red;
+  background: rgb(255, 72, 72, 0.4);
+  font-family: 'Amatic SC';
+  font-size: 1.4rem;
+}
+
+.interval-button {
+
 }
 
 .display-container{
   width: 100%;
   height: 25vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  justify-content: space-around;
   align-items: center;
+  text-align: center;
 
+  
 }
 
 .session-title{
-  font-family: ;
-  margin: auto 0;
+  font-family: 'Gamja Flower';
+  font-size: 1.6rem;
+  margin: 0;
 }
 
 .countdown-timer{
-  background: url('./images/tomato-icon.png') no-repeat;
-  width: 20vw;
+  background: url('./images/tomato.png') no-repeat center center;
+  background-size: 35%;
   height: 100%;
-  font-family: ;
-
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Chakra Petch';
+  font-size: 1.4rem;
+  z-index: 1;
 }
+
 
 .controls-container{
   width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  height: 15vh;
+  padding: 5vh 0;
 }
 
 .control-button{
-
+  font-size: 1.6rem;
 }
 
 .settings-container{
   align-self: center;
-  margin-bottom: 10vh;
-  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .settings-button{
   border-radius: 50%;
   border: none;
-  background: url('./images/settings.png');
-  height: 48px;
-  width: 48px;
+  background: url('./images/gardening-tools.png') no-repeat center center;
+  background-size: 80%;
+  height: 15vh;
+  width: 15vw;
+  margin: 0;
 }
 
 .input-container{
-  
+
 }
 
 label {
   display: inline-block;
+  font-family: 'Amatic SC';
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font-family: 'Chakra Petch';
+  border: none;
+  border-radius: 3%;
+  text-align: right;
+  height: 2rem;
+  width: 80%;
+  font-size: 1.4rem;
 }
 
 .hide {
@@ -108,16 +148,27 @@ label {
 
 .show {
   position: absolute;
-  top: 20vh;
+  top: 15vh;
   left: 0;
-  margin: 2vh 2vw;
-  background: yellow;
+  margin: 2vh 3vw;
+  background: rgb(255, 237, 231);
+  box-shadow: inset 0 0 2px 2px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   z-index: 1;
-  width: 76vw;
-  height: 66vh;
+  width: 74vw;
+  height: 68vh;
   border-radius: 3%;
+}
+
+.confirm-button {
+  height: 8vh;
+  width: 8vh;
+  background: url('./images/checked.png') no-repeat center center;
+  border-radius: 50%;
+  border: none;
+  margin-bottom: 2vh;
+
 }
